@@ -110,6 +110,30 @@ def main():
 
 ## Additional Bundles
 
+### Definition Lists
+
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+
+### Footnotes
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+
+### Color Code
+
 Not specifying language, Plain text:
 
 ```
@@ -130,10 +154,29 @@ Specifying language, highlights:
 }
 ```
 
-Hyperlinks to Heading (Note: all lowercases & replace `space` with `-` inside parentheses)
+### Hyperlinks to Heading
+
+(Note: all lowercases & replace `space` with `-` inside parentheses)
 
 [Additional Bundles](#additional-bundles)
 
-Emoji
+### Emoji
+
+> Note: `Markdown Preview Enhanced` extension needed.
 
 That is so funny! :joy:
+Gone camping! :tent: Be back soon. :see_no_evil:
+
+> Note: You can use this [list of emoji shortcodes](https://gist.github.com/rxaviers/7360908), but keep in mind that emoji shortcodes vary from application to application. Refer to your Markdown application's documentation for more information.
+
+### Highlight
+
+I need to highlight these ==very important words==.
+
+### Subscript
+
+H~2~O
+
+### Superscript
+
+X^2^
